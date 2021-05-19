@@ -1,0 +1,237 @@
+/* *{
+    background-color: #1D2521;
+    color: #C7D1CC;
+} */
+
+@media  (max-width:960px) {
+
+
+   .application img {
+       height: 40px;
+       width: 80px;
+      
+   }
+
+
+
+
+
+
+
+   .contact-section .btn {
+
+       padding: 0;
+       letter-spacing: 0;
+       margin-top: 2rem;
+
+   }
+
+  
+
+
+
+
+ 
+    footer .span_1_of_4 {
+        margin-bottom: 5rem;
+        width: 49.2%;
+
+
+
+
+    }
+ 
+
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+
+
+
+
+    }
+
+
+
+
+}
+
+
+/* =====================tablate============= */
+
+
+@media (max-width:768px){
+
+
+
+header nav {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .menu{
+    display: none;
+}
+     
+
+    
+  nav .mobile-menu span {
+
+      display: block;
+
+
+
+
+
+  }
+
+
+    .text-box .application img {
+        
+       
+        height: 35px;
+        margin: 0;
+        margin: 1rem 0.5rem;
+
+    }
+
+
+    .text-box h3{
+
+        font-size: 2rem;
+        margin: 0;
+        margin: 1rem 0;
+    }
+    .text-box h1{
+
+        font-size: 2.5rem;
+
+    }
+
+
+    .about-section .text-box p {
+
+        margin: 0;
+        margin-bottom: 0.5rem;
+    
+    }
+
+      .about-section img{
+
+
+        margin-top: 5rem;
+
+
+
+      }
+
+
+}
+
+
+
+
+
+
+/* ===================mobile=============== */
+
+@media (max-width:576px) {
+
+
+
+.row{
+    flex-direction: column;
+}
+
+
+    footer .span_1_of_4 {
+        width: 100%;
+    }
+
+    footer .col{
+        margin: 0;
+        margin-top: 1.5rem;
+    }
+
+    footer .head-line h4{
+
+        margin: 0;
+    }
+footer ul li {
+
+
+    margin-top: 0;
+}
+
+.row .col-1 .text-box {
+
+    text-align: center;
+    top: 0;
+    left: 0;
+    position: none;
+    transform: none;
+    padding-left: 0;
+
+
+
+}
+
+
+.app-section .application{
+
+
+    flex-direction: column;
+   
+   align-items: center;
+
+}
+.app-section .application img {
+        
+        text-align: center;
+        margin-top: 5rem;
+        width: 180px;
+        height: auto;
+        margin-left: 0;
+
+}
+
+.app-section .application img:nth-child(2){
+
+
+    margin-top: 0.3rem;
+    
+
+
+}
+
+
+
+ .left-side {
+     flex-basis: 50%;
+ }
+
+ .contact-section .right-side {
+     flex-basis: 50%;
+     margin-left: 0;
+     margin-top: 0;
+ }
+
+ .contact-section {
+
+     padding: 0;
+ }
+
+ .contact-section .right-side .btn {
+
+     padding: 1rem 5rem;
+     margin: 1rem 0;
+ }
+
+
+
+
+    
+
+
+    
+}
